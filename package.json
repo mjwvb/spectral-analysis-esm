@@ -3,16 +3,13 @@
   "version": "1.0.12",
   "description": "TypeScript library spectral analysis such as PSD and FFT",
   "type": "module",
-  "exports": {
-    ".": "./dist/main.js"
-  },
+  "main": "dist/main.js",
   "repository": "git@github.com:eleven-i/spectral-analysis.git",
   "author": "Khem Sattaur <dev@khems.net>",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "watch": "tsc -w -p tsconfig.json",
-    "prepare": "npm run build"
+    "watch": "tsc -w -p tsconfig.json"
   },
   "dependencies": {
     "fft-windowing-ts": "^0.2.7",
