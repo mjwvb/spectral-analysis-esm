@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "watch": "tsc -w -p tsconfig.json",
-    "prepublish": "npm run build"
+    "prepublish": "tsc -p tsconfig.json"
   },
   "dependencies": {
     "fft-windowing-ts": "^0.2.7",
