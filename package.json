@@ -9,7 +9,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "watch": "tsc -w -p tsconfig.json"
+    "watch": "tsc -w -p tsconfig.json",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "fft-windowing-ts": "^0.2.7",
