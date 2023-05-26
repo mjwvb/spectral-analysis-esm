@@ -1,5 +1,5 @@
 {
-  "name": "spectral-analysis",
+  "name": "spectral-analysis-esm",
   "version": "1.0.12",
   "description": "TypeScript library spectral analysis such as PSD and FFT",
   "type": "module",
